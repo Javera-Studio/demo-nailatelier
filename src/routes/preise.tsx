@@ -178,8 +178,8 @@ function PreisePage() {
               className="inline-flex items-center justify-center px-9 py-4 text-[11px] uppercase font-normal text-white transition-all duration-500 hover:-translate-y-0.5"
               style={{
                 letterSpacing: "0.22em",
-                backgroundColor: "#e8189c",
-                border: "0.5px solid #e8189c",
+                backgroundColor: "#9e6b7a",
+                border: "0.5px solid #9e6b7a",
               }}
             >
               Jetzt auf Instagram anfragen →
