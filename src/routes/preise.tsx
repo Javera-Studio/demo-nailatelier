@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar, Footer } from "@/components/site-nav";
-import g4 from "@/assets/gallery-3.jpg";
+import g4 from "@/assets/nailart.png";
 
 export const Route = createFileRoute("/preise")({
   head: () => ({
