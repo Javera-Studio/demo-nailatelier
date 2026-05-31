@@ -183,8 +183,8 @@ function Hero() {
               <em className="text-mauve-dark">dein Statement.</em>
             </h1>
             <p className="mt-6 md:mt-8 max-w-lg mx-auto md:mx-0 text-text-muted font-light leading-relaxed text-sm md:text-base">
-              Im Herzen von Wien verwandeln wir Pflege in Poesie. Eleganz, Präzision und feminine Schönheit — für
-              Hände, die Geschichten erzählen.
+              Im Herzen von Wien verwandeln wir Pflege in Poesie. Eleganz, Präzision und feminine Schönheit — für Hände,
+              die Geschichten erzählen.
             </p>
             <div className="mt-8 md:mt-10 flex flex-wrap gap-3 md:gap-4 justify-center md:justify-start">
               <a
@@ -664,7 +664,7 @@ function Quote() {
           fontSize: "clamp(24px, 4vw, 36px)",
         }}
       >
-        Not here to follow trends — I create them.
+        Refined beauty, down to your fingertips.
       </p>
     </section>
   );
