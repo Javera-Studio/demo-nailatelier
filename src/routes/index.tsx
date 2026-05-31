@@ -23,16 +23,16 @@ function DiamondDivider() {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Beauty RooM – Nagelstudio by Mateja | Steyr" },
+      { title: "Nail Atelier – Nagelstudio by Sofia | Wien" },
       {
         name: "description",
         content:
-          "Beauty RooM in Steyr – Nagelstudio by Mateja. Maniküre, Nagelverlängerung, Nail Art und mehr am Stadtplatz 31.",
+          "Nail Atelier in Wien – Nagelstudio by Sofia. Maniküre, Nagelverlängerung, Nail Art und mehr in der Herrengasse 1.",
       },
-      { property: "og:title", content: "Beauty RooM – Nagelstudio by Mateja" },
+      { property: "og:title", content: "Nail Atelier – Nagelstudio by Sofia" },
       {
         property: "og:description",
-        content: "Luxuriöse Nagelpflege im Herzen von Steyr.",
+        content: "Luxuriöse Nagelpflege im Herzen von Wien.",
       },
       { property: "og:image", content: heroImg },
     ],
