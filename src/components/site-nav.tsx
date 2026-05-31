@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Menu, X, MapPin } from "lucide-react";
-import logoImg from "@/assets/logo.jpg";
 
 export const navLinks = [
   { href: "/#services", label: "Leistungen" },
@@ -47,13 +46,12 @@ export function Navbar() {
     >
       <div className="mx-auto max-w-7xl px-4 md:px-12 h-16 md:h-24 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
-          <img
-            src={logoImg}
-            alt="Beauty RooM Logo"
-            width={168}
-            height={84}
-            className="h-[52px] md:h-[84px] w-auto object-contain"
-          />
+          <span
+            className="font-display italic text-text leading-none"
+            style={{ fontSize: "clamp(24px, 3vw, 34px)", letterSpacing: "0.01em" }}
+          >
+            Nail Atelier
+          </span>
         </Link>
         <nav className="hidden md:block">
           <ul className="flex gap-10">
@@ -98,10 +96,10 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 md:px-12 grid md:grid-cols-3 gap-10 md:gap-12">
         <div>
           <p className="font-display italic text-2xl md:text-3xl" style={{ color: "var(--rose-light)" }}>
-            Beauty RooM
+            Nail Atelier
           </p>
           <p className="mt-3 md:mt-4 text-sm font-light text-mauve">
-            Nagelstudio by Mateja
+            Nagelstudio by Sofia
           </p>
         </div>
         <div>
@@ -114,20 +112,20 @@ export function Footer() {
           <p className="flex items-start gap-2 text-sm font-light text-cream/90">
             <MapPin size={14} strokeWidth={1} className="mt-1 text-rose-light" />
             <span>
-              Stadtplatz 31<br />
-              4400 Steyr, Österreich
+              Herrengasse 1<br />
+              1010 Wien, Österreich
             </span>
           </p>
         </div>
         <div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.1!2d14.4197!3d48.0433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sStadtplatz+31%2C+4400+Steyr!5e0!3m2!1sde!2sat!4v1"
+            src="https://www.google.com/maps?q=Herrengasse+1,+1010+Wien&output=embed"
             width="100%"
             height="160"
             style={{ border: "0.5px solid #c9a0a0", filter: "grayscale(30%) sepia(20%)" }}
             allowFullScreen
             loading="lazy"
-            title="Beauty RooM Location"
+            title="Nail Atelier Location"
           />
         </div>
       </div>
@@ -139,13 +137,13 @@ export function Footer() {
           className="text-[10px] uppercase font-light text-mauve"
           style={{ letterSpacing: "0.28em" }}
         >
-          © {new Date().getFullYear()} Beauty RooM
+          © {new Date().getFullYear()} Nail Atelier
         </p>
         <p
           className="text-[10px] uppercase font-light text-mauve"
           style={{ letterSpacing: "0.28em" }}
         >
-          Made with care · Steyr
+          Made with care · Wien
         </p>
       </div>
     </footer>
