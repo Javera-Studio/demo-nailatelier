@@ -3,22 +3,6 @@ import { Navbar, Footer } from "@/components/site-nav";
 import g4 from "@/assets/nailart.png";
 
 export const Route = createFileRoute("/preise")({
-  head: () => ({
-    meta: [
-      { title: "Preise – Nail Atelier Wien | Nagelstudio by Sofia" },
-      {
-        name: "description",
-        content:
-          "Transparente Preisübersicht für Maniküre, Nagelverlängerung, Nail Art, Pediküre und Spa-Behandlungen im Nail Atelier Wien.",
-      },
-      { property: "og:title", content: "Preise – Nail Atelier Wien" },
-      {
-        property: "og:description",
-        content:
-          "Alle Leistungen und Richtpreise im Nail Atelier by Sofia in Wien.",
-      },
-    ],
-  }),
   component: PreisePage,
 });
 
