@@ -74,13 +74,12 @@ function Navbar() {
     >
       <div className="mx-auto max-w-7xl px-4 md:px-12 h-16 md:h-24 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
-          <img
-            src={logoImg}
-            alt="Beauty RooM Logo"
-            width={168}
-            height={84}
-            className="h-[52px] md:h-[84px] w-auto object-contain"
-          />
+          <span
+            className="font-display italic text-text leading-none"
+            style={{ fontSize: "clamp(24px, 3vw, 34px)", letterSpacing: "0.01em" }}
+          >
+            Nail Atelier
+          </span>
         </a>
         <nav className="hidden md:block">
           <ul className="flex gap-10">
