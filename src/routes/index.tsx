@@ -295,7 +295,7 @@ function Services() {
               <a
                 href="#booking"
                 className="inline-block mt-5 font-jost hover:opacity-70 transition-opacity"
-                style={{ color: "#e8189c", fontSize: "12px", letterSpacing: "0.08em" }}
+                style={{ color: "#9e6b7a", fontSize: "12px", letterSpacing: "0.08em" }}
               >
                 → Jetzt anfragen
               </a>
@@ -313,8 +313,8 @@ function Services() {
               className="inline-flex items-center justify-center mt-6 px-9 py-4 text-[11px] uppercase font-normal text-white transition-all duration-500 hover:-translate-y-0.5"
               style={{
                 letterSpacing: "0.22em",
-                backgroundColor: "#e8189c",
-                border: "0.5px solid #e8189c",
+                backgroundColor: "#9e6b7a",
+                border: "0.5px solid #9e6b7a",
               }}
             >
               Jetzt anfragen
@@ -442,8 +442,8 @@ function Gallery() {
             className="inline-flex items-center justify-center px-9 py-4 text-[11px] uppercase font-normal text-white transition-all duration-500 hover:-translate-y-0.5"
             style={{
               letterSpacing: "0.22em",
-              backgroundColor: "#e8189c",
-              border: "0.5px solid #e8189c",
+              backgroundColor: "#9e6b7a",
+              border: "0.5px solid #9e6b7a",
             }}
           >
             Termin anfragen →
@@ -574,8 +574,8 @@ function Booking() {
               className="w-full inline-flex items-center justify-center px-12 py-4 text-[11px] uppercase font-normal text-white transition-all duration-500 hover:-translate-y-0.5"
               style={{
                 letterSpacing: "0.22em",
-                backgroundColor: "#e8189c",
-                border: "0.5px solid #e8189c",
+                backgroundColor: "#9e6b7a",
+                border: "0.5px solid #9e6b7a",
               }}
             >
               Auf Instagram anfragen →
@@ -693,7 +693,7 @@ function FloatingCta() {
       aria-label="Termin sichern"
       className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 font-jost text-white uppercase shadow-lg transition-opacity duration-300"
       style={{
-        backgroundColor: "#e8189c",
+        backgroundColor: "#9e6b7a",
         padding: "12px 20px",
         fontSize: "11px",
         letterSpacing: "0.18em",
