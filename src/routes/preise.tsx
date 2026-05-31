@@ -1,21 +1,21 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar, Footer } from "@/components/site-nav";
-import g4 from "@/assets/gallerie4.jpg";
+import g4 from "@/assets/gallery-3.jpg";
 
 export const Route = createFileRoute("/preise")({
   head: () => ({
     meta: [
-      { title: "Preise – Beauty RooM Steyr | Nagelstudio by Mateja" },
+      { title: "Preise – Nail Atelier Wien | Nagelstudio by Sofia" },
       {
         name: "description",
         content:
-          "Transparente Preisübersicht für Maniküre, Nagelverlängerung, Nail Art, Pediküre und Spa-Behandlungen im Beauty RooM Steyr.",
+          "Transparente Preisübersicht für Maniküre, Nagelverlängerung, Nail Art, Pediküre und Spa-Behandlungen im Nail Atelier Wien.",
       },
-      { property: "og:title", content: "Preise – Beauty RooM Steyr" },
+      { property: "og:title", content: "Preise – Nail Atelier Wien" },
       {
         property: "og:description",
         content:
-          "Alle Leistungen und Richtpreise im Beauty RooM by Mateja in Steyr.",
+          "Alle Leistungen und Richtpreise im Nail Atelier by Sofia in Wien.",
       },
     ],
   }),
@@ -172,7 +172,7 @@ function PreisePage() {
 
           <div className="flex justify-center mt-12 md:mt-16">
             <a
-              href="https://ig.me/m/beautyroom_steyr"
+              href="https://ig.me/m/nail.atelier.wien"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-9 py-4 text-[11px] uppercase font-normal text-white transition-all duration-500 hover:-translate-y-0.5"

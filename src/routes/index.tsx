@@ -172,7 +172,7 @@ function Hero() {
               className="text-[10px] md:text-[11px] uppercase font-light text-mauve-dark mb-5 md:mb-8"
               style={{ letterSpacing: "0.28em" }}
             >
-              Nagelstudio by Mateja · Steyr
+              Nagelstudio by Sofia · Wien
             </p>
             <h1
               className="font-display font-light text-text leading-[1.05]"
@@ -183,7 +183,7 @@ function Hero() {
               <em className="text-mauve-dark">dein Statement.</em>
             </h1>
             <p className="mt-6 md:mt-8 max-w-lg mx-auto md:mx-0 text-text-muted font-light leading-relaxed text-sm md:text-base">
-              Im Herzen von Steyr verwandeln wir Pflege in Poesie. Eleganz, Präzision und feminine Schönheit — für
+              Im Herzen von Wien verwandeln wir Pflege in Poesie. Eleganz, Präzision und feminine Schönheit — für
               Hände, die Geschichten erzählen.
             </p>
             <div className="mt-8 md:mt-10 flex flex-wrap gap-3 md:gap-4 justify-center md:justify-start">
@@ -341,7 +341,7 @@ function About() {
             />
             <img
               src={aboutImg}
-              alt="Mateja bei der Arbeit im Beauty RooM"
+              alt="Sofia bei der Arbeit im Nail Atelier"
               width={1000}
               height={1200}
               loading="lazy"
@@ -361,12 +361,12 @@ function About() {
           </h2>
           <div className="my-8" style={{ height: "0.5px", width: "5rem", backgroundColor: "var(--mauve)" }} />
           <p className="text-text-muted font-light leading-relaxed mb-4">
-            Mein Name ist Mateja, und Beauty RooM ist mein Herzensprojekt. Seit vielen Jahren lebe ich für die Kunst
+            Mein Name ist Sofia, und das Nail Atelier ist mein Herzensprojekt. Seit vielen Jahren lebe ich für die Kunst
             rund um den Nagel — mit unermüdlicher Liebe zum Detail und einem Auge für stille Eleganz.
           </p>
           <p className="text-text-muted font-light leading-relaxed mb-10">
-            In meinem Studio am Stadtplatz 31 schaffe ich einen Raum, in dem jede Frau sich gesehen, gepflegt und schön
-            fühlen darf. Hier ist Zeit kein Faktor — sondern ein Geschenk.
+            In meinem Studio in der Herrengasse 1 schaffe ich einen Raum, in dem jede Frau sich gesehen, gepflegt und
+            schön fühlen darf. Hier ist Zeit kein Faktor — sondern ein Geschenk.
           </p>
           <a
             href="#booking"
@@ -402,7 +402,7 @@ function Gallery() {
           className="text-center text-[11px] uppercase font-light mb-6"
           style={{ letterSpacing: "0.2em", color: "#b08080" }}
         >
-          INSTAGRAM · @beautyroom_steyr
+          INSTAGRAM · @nail.atelier.wien
         </p>
         <h2
           className="font-display font-light text-center leading-tight mb-8 px-4"
@@ -415,7 +415,7 @@ function Gallery() {
             <div key={i} className="relative aspect-square overflow-hidden group bg-cream cursor-pointer">
               <img
                 src={item.src}
-                alt={`Beauty RooM Galerie ${i + 1}`}
+                alt={`Nail Atelier Galerie ${i + 1}`}
                 width={800}
                 height={800}
                 loading="lazy"
@@ -451,7 +451,7 @@ function Gallery() {
         </div>
         <div className="flex justify-center pb-14">
           <a
-            href="https://www.instagram.com/beautyroom_steyr"
+            href="https://www.instagram.com/nail.atelier.wien"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-9 py-4 text-[11px] uppercase font-normal text-mauve-dark transition-all duration-500 hover:-translate-y-0.5 hover:bg-mauve hover:text-white"
@@ -568,7 +568,7 @@ function Booking() {
           </div>
           <div className="md:col-span-2 mt-4">
             <a
-              href="https://ig.me/m/beautyroom_steyr"
+              href="https://ig.me/m/nail.atelier.wien"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full inline-flex items-center justify-center px-12 py-4 text-[11px] uppercase font-normal text-white transition-all duration-500 hover:-translate-y-0.5"
@@ -610,9 +610,9 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6 md:px-12 grid md:grid-cols-3 gap-10 md:gap-12">
         <div>
           <p className="font-display italic text-2xl md:text-3xl" style={{ color: "var(--rose-light)" }}>
-            Beauty RooM
+            Nail Atelier
           </p>
-          <p className="mt-3 md:mt-4 text-sm font-light text-mauve">Nagelstudio by Mateja</p>
+          <p className="mt-3 md:mt-4 text-sm font-light text-mauve">Nagelstudio by Sofia</p>
         </div>
         <div>
           <p className="text-[10px] uppercase font-light mb-4 text-mauve" style={{ letterSpacing: "0.28em" }}>
@@ -621,21 +621,21 @@ function Footer() {
           <p className="flex items-start gap-2 text-sm font-light text-cream/90">
             <MapPin size={14} strokeWidth={1} className="mt-1 text-rose-light" />
             <span>
-              Stadtplatz 31
+              Herrengasse 1
               <br />
-              4400 Steyr, Österreich
+              1010 Wien, Österreich
             </span>
           </p>
         </div>
         <div>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.1!2d14.4197!3d48.0433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sStadtplatz+31%2C+4400+Steyr!5e0!3m2!1sde!2sat!4v1"
+            src="https://www.google.com/maps?q=Herrengasse+1,+1010+Wien&output=embed"
             width="100%"
             height="160"
             style={{ border: "0.5px solid #c9a0a0", filter: "grayscale(30%) sepia(20%)" }}
             allowFullScreen
             loading="lazy"
-            title="Beauty RooM Location"
+            title="Nail Atelier Location"
           />
         </div>
       </div>
@@ -644,10 +644,10 @@ function Footer() {
         style={{ borderTop: "0.5px solid rgba(201,160,160,0.2)" }}
       >
         <p className="text-[10px] uppercase font-light text-mauve" style={{ letterSpacing: "0.28em" }}>
-          © {new Date().getFullYear()} Beauty RooM
+          © {new Date().getFullYear()} Nail Atelier
         </p>
         <p className="text-[10px] uppercase font-light text-mauve" style={{ letterSpacing: "0.28em" }}>
-          Made with care · Steyr
+          Made with care · Wien
         </p>
       </div>
     </footer>
