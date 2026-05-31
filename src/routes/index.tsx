@@ -294,8 +294,8 @@ function Services() {
               <p className="text-sm text-text-muted font-light leading-relaxed">{desc}</p>
               <a
                 href="#booking"
-                className="inline-block mt-5 font-jost hover:opacity-70 transition-opacity"
-                style={{ color: "#9e6b7a", fontSize: "12px", letterSpacing: "0.08em" }}
+                className="inline-block mt-5 font-jost font-medium hover:opacity-70 transition-opacity"
+                style={{ color: "#9e6b7a", fontSize: "13px", letterSpacing: "0.08em" }}
               >
                 → Jetzt anfragen
               </a>
