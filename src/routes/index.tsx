@@ -1,15 +1,14 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
 import { Sparkles, Hand, Brush, Leaf, Footprints, Wrench, Instagram, MapPin, Menu, X } from "lucide-react";
-import logoImg from "@/assets/logo.jpg";
 import heroImg from "@/assets/hero-header.png";
 import aboutImg from "@/assets/about-mateja.jpg";
-import g2 from "@/assets/gallerie2.jpg";
-import g3 from "@/assets/gallerie3.jpg";
-import g4 from "@/assets/gallerie4.jpg";
-import g5 from "@/assets/gallerie5.jpg";
-import g6 from "@/assets/gallerie6.jpg";
-import g7 from "@/assets/gallerie7.jpg";
+import g2 from "@/assets/gallery-1.jpg";
+import g3 from "@/assets/gallery-2.jpg";
+import g4 from "@/assets/gallery-3.jpg";
+import g5 from "@/assets/gallery-4.jpg";
+import g6 from "@/assets/gallery-5.jpg";
+import g7 from "@/assets/hero-nails.jpg";
 
 function DiamondDivider() {
   return (
